@@ -1,7 +1,11 @@
-title: .NET Core C# Project
+title: Introduction au C#
 plan:
-- title: Welcome
+- title: Bienvenue
   statement: markdowns/welcome.md
+- title: Déclaration de variables
+  statement: markdowns/part2.md
+- title: Exercice déclaration de variable
+  statement: markdowns/part3.md
 projects:
   csharp:
     root: /csharp-project
