@@ -31,20 +31,13 @@ namespace TechIo
 		else
 		{
  			// On success
-			if(ExistsInFile(@"/project/target/Exercises/UniverseStub.cs", "galaxies.Sum();")) 
+			if(ExistsInFile(@"/project/target/Exercises/UniverseStub.cs", "int compteur=255;")) 
 			{
-				PrintMessage("My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ");
-				PrintMessage("My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ");
-				PrintMessage("My personal Yoda, you are. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .");
-				PrintMessage("My personal Yoda, you are. 🙏", "'-._\\7'      .　　° ☾  ° 　¸.☆  ● .　　　");
-				PrintMessage("My personal Yoda, you are. 🙏", " /'.-c    　   * ●  ¸.　　°     ° 　¸.    ");
-				PrintMessage("My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ");
-				PrintMessage("My personal Yoda, you are. 🙏", "_)_/LI");
+				PrintMessage("BRAVO. 🙏");
+				
 			} else {
-				PrintMessage("Kudos 🌟", "Using Linq, your code could have been shorter. Try it!");
-				PrintMessage("Kudos 🌟", "");
-				PrintMessage("Kudos 🌟", "int[] galaxies = {37, 3, 2};");
-				PrintMessage("Kudos 🌟", "int totalStars = galaxies.Sum(); // 42");
+				PrintMessage("NON 🌟", "Revoir le cours déclaraton de variable. essaye encore!");
+				
 			}	
 		}
       	}
