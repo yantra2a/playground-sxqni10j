@@ -45,7 +45,7 @@ namespace TechIo
 
 	/****
 		TOOLS
-	
+	*****/
 	// Display a custom message in a custom channel
 	private static void PrintMessage(String channel, String message)
 	{		
@@ -61,6 +61,6 @@ namespace TechIo
 	{
 		return File.ReadAllText(path).Contains(keyword);
 	}
-	*****/
+	
     }
 }
