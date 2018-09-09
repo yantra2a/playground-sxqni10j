@@ -12,7 +12,7 @@ namespace Answer
         //Créer ci-desous la variable demandée
         
         
-        Console.WriteLine("Hello World!");
+        
         }
 
 // { autofold
