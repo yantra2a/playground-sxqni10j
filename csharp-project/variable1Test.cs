@@ -17,7 +17,7 @@ namespace TechIo
 		//Assert.AreEqual (255,   mod.num );
 		//Assert.AreEqual (typeof(mod.num), "int");
 		
-		//shouldShowHint = false;
+		shouldShowHint = false;
 	}
 
 	[TestCleanup()]
