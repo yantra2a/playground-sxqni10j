@@ -33,10 +33,10 @@ namespace TechIo
  			// On success
 			if(ExistsInFile(@"/project/target/Exercises/UniverseStub.cs", "int compteur=255;")) 
 			{
-				PrintMessage("BRAVO. 🙏");
+				PrintMessage("BRAVO","toto");
 				
 			} else {
-				PrintMessage("NON 🌟", "Revoir le cours déclaraton de variable. essaye encore!");
+				PrintMessage("NON ", "Revoir le cours déclaraton de variable. essaye encore!");
 				
 			}	
 		}
@@ -45,7 +45,7 @@ namespace TechIo
 
 	/****
 		TOOLS
-	*****/
+	
 	// Display a custom message in a custom channel
 	private static void PrintMessage(String channel, String message)
 	{		
@@ -61,5 +61,6 @@ namespace TechIo
 	{
 		return File.ReadAllText(path).Contains(keyword);
 	}
+	*****/
     }
 }
