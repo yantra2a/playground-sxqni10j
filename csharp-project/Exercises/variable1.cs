@@ -7,7 +7,7 @@ using System.Linq;
 namespace Answer
 {
     
-    static void Main() 
+    public class Hello
         {
         //Créer ci-desous la variable demandée
         
