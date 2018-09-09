@@ -4,15 +4,17 @@
 using System;
 using System.Linq;
 
-class Hello 
+namespace Reponse
 {
-    static void Main() 
+    class Hello 
     {
-    //Créer ci-desous la variable demandée
+    static void Main() 
+        {
+        //Créer ci-desous la variable demandée
         
         
-     Console.WriteLine("Hello World!");
-    }
+        Console.WriteLine("Hello World!");
+        }
 
 // { autofold
     }
