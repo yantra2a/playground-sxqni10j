@@ -13,11 +13,11 @@ namespace TechIo
 	[TestMethod]
 	public void VerifyCountAllStars() 
 	{
-		shouldShowHint = true;
-		Assert.AreEqual (6,   UniverseStub.CountAllStars (1, 2, 3));
-		Assert.AreEqual (16,   UniverseStub.CountAllStars (10, 3, 2, 1));
-		Assert.AreEqual (42,   UniverseStub.CountAllStars (20, 20, 2));
-		shouldShowHint = false;
+		//shouldShowHint = true;
+		//Assert.AreEqual (255,   mod.num );
+		//Assert.AreEqual (typeof(mod.num), "int");
+		
+		//shouldShowHint = false;
 	}
 
 	[TestCleanup()]
