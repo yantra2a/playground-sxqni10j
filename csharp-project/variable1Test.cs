@@ -26,12 +26,12 @@ namespace TechIo
 		if(shouldShowHint)
 		{	
 			// On Failure
-			PrintMessage("Hint 💡", "Did you properly accumulate all stars into 'totalStars'? 🤔");
+			PrintMessage("Hint ", "Did you properly accumulate all stars into 'totalStars'? ");
 		} 
 		else
 		{
  			// On success
-			if(ExistsInFile(@"/project/target/Exercises/UniverseStub.cs", "int compteur=255;")) 
+			if(ExistsInFile(@"/project/target/Exercises/variable1.cs", "int compteur=255;")) 
 			{
 				PrintMessage("BRAVO","toto");
 				
