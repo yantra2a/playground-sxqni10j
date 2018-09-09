@@ -6,8 +6,7 @@ using System.Linq;
 
 namespace Answer
 {
-    class Hello 
-    {
+    
     static void Main() 
         {
         //Créer ci-desous la variable demandée
@@ -17,7 +16,7 @@ namespace Answer
         }
 
 // { autofold
-    }
+    
 }
 // }
 
