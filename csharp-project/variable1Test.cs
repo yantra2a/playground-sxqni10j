@@ -9,28 +9,11 @@ namespace TechIo
     [TestClass]
     public class UniverseTest
     {
-	private bool shouldShowHint = false;
+	
 	[TestMethod]
 	public void VerifyCountAllStars() 
 	{
-		//shouldShowHint = true;
-		//Assert.AreEqual (255,   mod.num );
-		//Assert.AreEqual (typeof(mod.num), "int");
-		
-		shouldShowHint = false;
-	}
-
-	[TestCleanup()]
-      	public void Cleanup()
-      	{		
-		if(shouldShowHint)
-		{	
-			// On Failure
-			PrintMessage("Hint ", "Did you properly accumulate all stars into 'totalStars'? ");
-		} 
-		else
-		{
- 			// On success
+		// On success
 			if(ExistsInFile(@"/project/target/Exercises/variable1.cs", "int compteur=255;")) 
 			{
 				PrintMessage("BRAVO","toto");
@@ -39,9 +22,9 @@ namespace TechIo
 				PrintMessage("NON ", "Revoir le cours déclaraton de variable. essaye encore!");
 				
 			}	
-		}
-      	}
+	}
 
+	
 
 	/****
 		TOOLS
