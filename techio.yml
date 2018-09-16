@@ -9,6 +9,6 @@ plan:
 projects:
   csharp:
     root: /csharp-project
-    runner: techio/dotnet-runner:1.1.0-dotnet-1.1-sdk-msbuild
-    
-    version: 1.1.0-dotnet-1.1-sdk-msbuild
+    runner:
+      name: techio/dotnet-runner
+      version: 1.1.0-dotnet-1.1-sdk-msbuild
