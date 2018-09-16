@@ -21,5 +21,5 @@ public static int CountAllStars(params int[] galaxies){
 }
 //{ autofold
 	}
-}
+
 //}
