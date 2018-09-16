@@ -11,7 +11,7 @@ namespace TechIo
     {
 	
 	[TestMethod]
-	public void VerifyCountAllStars() 
+	public void VerifyVariable() 
 	{
 		// On success
 			if(ExistsInFile(@"/project/target/Exercises/variable1.cs", "int compteur=255;")) 
