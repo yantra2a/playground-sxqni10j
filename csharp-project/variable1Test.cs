@@ -15,7 +15,7 @@ namespace TechIo
 	public void VerifyVariable() 
 	{
 		// On success
-			if(ExistsInFile(@"/project/target/Exercises/variable1.cs","int compteur = 255;)
+			if(ExistsInFile(@"/project/target/Exercises/variable1.cs","int compteur = 255;))
 			{
 				Success(true);
 				PrintMessage("BRAVO","Tu es trop fort !");
