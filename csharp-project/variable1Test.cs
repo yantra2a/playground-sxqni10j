@@ -17,12 +17,13 @@ namespace TechIo
 		// On success
 			if(ExistsInFile(@"/project/target/Exercises/variable1.cs", "int compteur=255;")) 
 			{
+				Success(true);
 				PrintMessage("BRAVO","toto");
 				
 			}
 			else 
 			{
-				Succes(false);
+				Success(false);
 				PrintMessage("NON ", "Revoir le cours déclaraton de variable. essaye encore!");
 				
 			}	
