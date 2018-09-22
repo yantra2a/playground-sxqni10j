@@ -19,7 +19,10 @@ namespace TechIo
 			{
 				PrintMessage("BRAVO","toto");
 				
-			} else {
+			}
+			else 
+			{
+				Succes(false);
 				PrintMessage("NON ", "Revoir le cours déclaraton de variable. essaye encore!");
 				
 			}	
