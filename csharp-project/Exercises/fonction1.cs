@@ -1,11 +1,14 @@
-using Answer;
+using System;
+using System.Linq;
 
-namespace ConsoleApplication1
+namespace Answer
 {
     class Program
     {
         static void Main(string[] args)
         {
+            //créer ici votre méthode
+            
         }
     }
 }
