@@ -6,6 +6,8 @@ plan:
   statement: markdowns/part2.md
 - title: Exercice déclaration de variable
   statement: markdowns/part3.md
+- title: Fonction sans argument
+  statement: markdowns/part4.md
 projects:
   csharp:
     root: /csharp-project
